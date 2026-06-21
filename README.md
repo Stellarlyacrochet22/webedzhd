@@ -17,7 +17,7 @@
 </p>
 
 <p align="center">
-  <img src="preview.svg" alt="HWID Spoofer preview" width="100%"/>
+  <img src="preview.png" alt="HWID Spoofer preview" width="100%"/>
 </p>
 
 ---
