@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Documentation
+    url: https://github.com/your-username/hwid-spoofer/tree/main/docs
+    about: Read architecture, build guide, and FAQ
+  - name: Security Report
+    url: https://github.com/your-username/hwid-spoofer/security/policy
+    about: Report a vulnerability privately

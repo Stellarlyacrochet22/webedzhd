@@ -1,0 +1,41 @@
+name: Feature Request
+description: Suggest a new module or improvement
+title: "[Feature]: "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem or use case
+      description: What problem does this solve?
+    validations:
+      required: true
+
+  - type: textarea
+    id: solution
+    attributes:
+      label: Proposed solution
+    validations:
+      required: true
+
+  - type: dropdown
+    id: module
+    attributes:
+      label: Affected module
+      options:
+        - Disk Serial
+        - SMBIOS
+        - MAC
+        - Volume Serial
+        - Registry
+        - Driver
+        - CLI/GUI
+        - Other
+
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Acknowledgement
+      options:
+        - label: I understand this project is for research on systems I own
+          required: true

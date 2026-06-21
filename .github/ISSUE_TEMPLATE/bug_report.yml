@@ -1,0 +1,67 @@
+name: Bug Report
+description: Report a bug or unexpected behavior
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: Thanks for taking the time to report an issue.
+
+  - type: input
+    id: version
+    attributes:
+      label: HWID Spoofer version
+      placeholder: e.g. 1.0.0 or commit hash
+    validations:
+      required: true
+
+  - type: dropdown
+    id: os
+    attributes:
+      label: Windows version
+      options:
+        - Windows 11 24H2
+        - Windows 11 23H2
+        - Windows 10 22H2
+        - Other
+    validations:
+      required: true
+
+  - type: dropdown
+    id: admin
+    attributes:
+      label: Ran as Administrator?
+      options:
+        - "Yes"
+        - "No"
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: 1. Run HWIDSpoofer.exe status ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+    validations:
+      required: true
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Log output
+      description: Paste relevant lines from %TEMP%\hwid-spoofer.log
+      render: shell
