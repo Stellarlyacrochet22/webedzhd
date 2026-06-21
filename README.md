@@ -71,7 +71,7 @@
 
 1. Go to [**Releases**](../../releases/latest)
 2. Download `HWIDSpoofer-x64.zip`
-3. Extract and run `HWIDSpoofer.exe` **as Administrator**
+3. Extract and run `.exe` **as Administrator**
 4. Use `backup` before any spoof operation
 
 ### Build from source
