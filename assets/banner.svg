@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="200" viewBox="0 0 1280 200">
+  <defs>
+    <linearGradient id="bannerBg" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#0f172a"/>
+      <stop offset="100%" style="stop-color:#1e1b4b"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#06b6d4"/>
+      <stop offset="50%" style="stop-color:#8b5cf6"/>
+      <stop offset="100%" style="stop-color:#06b6d4"/>
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="200" fill="url(#bannerBg)"/>
+  <rect x="0" y="196" width="1280" height="4" fill="url(#line)"/>
+  <text x="640" y="90" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="48" font-weight="700" fill="#f1f5f9">HWID Spoofer</text>
+  <text x="640" y="130" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="20" fill="#94a3b8">Temporary hardware identifier reset tool for Windows</text>
+  <text x="640" y="170" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#64748b">Research &amp; testing on your own machine only</text>
+</svg>
